@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="5863" started-at="2023-07-17T22:22:44 BST" finished-at="2023-07-17T22:22:50 BST">
+    <groups>
+      <group name="sanity">
+        <method signature="BankTest.bankManagerShouldAddCustomerSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@cd2dae5]" name="bankManagerShouldAddCustomerSuccessfully" class="com.bank.testsuite.BankTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="xyz-bank-sw5-page-factory" duration-ms="5863" started-at="2023-07-17T22:22:44 BST" finished-at="2023-07-17T22:22:50 BST">
+      <class name="com.bank.testsuite.BankTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@cd2dae5]" name="setUp" is-config="true" duration-ms="5173" started-at="2023-07-17T22:22:44 BST" finished-at="2023-07-17T22:22:49 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="bankManagerShouldAddCustomerSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@cd2dae5]" name="bankManagerShouldAddCustomerSuccessfully" duration-ms="0" started-at="2023-07-17T22:22:49 BST" finished-at="2023-07-17T22:22:49 BST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.bank.utilities.Utility.clickOnElement(Utility.java:49)
+at com.bank.pages.HomePage.clickOnBankManagerLoginTab(HomePage.java:22)
+at com.bank.testsuite.BankTest.bankManagerShouldAddCustomerSuccessfully(BankTest.java:19)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankManagerShouldAddCustomerSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@cd2dae5]" name="tearDown" is-config="true" duration-ms="644" started-at="2023-07-17T22:22:49 BST" finished-at="2023-07-17T22:22:50 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.testsuite.BankTest -->
+    </test> <!-- xyz-bank-sw5-page-factory -->
+  </suite> <!-- Default Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="xyz-bank-sw5-page-factory(failed)">
+    <classes>
+      <class name="com.bank.testsuite.BankTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="bankManagerShouldAddCustomerSuccessfully"/>
+        </methods>
+      </class> <!-- com.bank.testsuite.BankTest -->
+    </classes>
+  </test> <!-- xyz-bank-sw5-page-factory(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
